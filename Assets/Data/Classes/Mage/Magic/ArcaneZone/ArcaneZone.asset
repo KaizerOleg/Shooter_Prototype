@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e77583e547f85046a63cb6c54f2c228, type: 3}
+  m_Name: ArcaneZone
+  m_EditorClassIdentifier: Assembly-CSharp::SpellDefinition
+  spellId: arcane_zone
+  displayName: Arcane_Zone
+  description: 
+  icon: {fileID: 0}
+  spellType: 1
+  spellPrefab: {fileID: 6892675699369752624, guid: 23c6510ddfb05d744a293af80ffef474, type: 3}
+  damage: 10
+  cooldown: 3
+  manaCost: 20
+  range: 20
+  projectileSpeed: 999
+  areaRadius: 2
+  areaHeight: 6
+  tickInterval: 1
+  chargeTime: 0
+  duration: 5
+  chainCount: 999
+  chainJumpRange: 999
+  upgrades:
+  - {fileID: 11400000, guid: 9e4c8efb36dd2cb4791843cd92b65c74, type: 2}
+  - {fileID: 11400000, guid: 9b82d64a1f135ba4d9032715619426fd, type: 2}
+  - {fileID: 11400000, guid: c76509f28d112c744bc97d6f27734203, type: 2}

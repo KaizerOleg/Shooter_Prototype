@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e77583e547f85046a63cb6c54f2c228, type: 3}
+  m_Name: ChainLightning
+  m_EditorClassIdentifier: Assembly-CSharp::SpellDefinition
+  spellId: chainlightning
+  displayName: Chain Lightning
+  description: 
+  icon: {fileID: 0}
+  spellType: 2
+  spellPrefab: {fileID: 0}
+  damage: 10
+  cooldown: 3
+  manaCost: 20
+  range: 20
+  projectileSpeed: 15
+  areaRadius: 2
+  areaHeight: 2
+  tickInterval: 1
+  chargeTime: 0.75
+  duration: 0
+  chainCount: 4
+  chainJumpRange: 6
+  upgrades:
+  - {fileID: 11400000, guid: 53f94a9bc32876141a113f2635fab8fc, type: 2}
+  - {fileID: 11400000, guid: 91605cd6e988cbe4aa5c82cad06723c6, type: 2}
+  - {fileID: 11400000, guid: ee4813bb43f4b5e4796c760afd365092, type: 2}

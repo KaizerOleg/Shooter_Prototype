@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02395e318e963904ab188768796a43a6, type: 3}
+  m_Name: Turret
+  m_EditorClassIdentifier: Assembly-CSharp::BuildingDefinition
+  buildingId: turret
+  displayName: Turret
+  description: 
+  buildingPrefab: {fileID: 1266795964417774278, guid: 466c3644f5efc004a9a994885945a70f, type: 3}
+  icon: {fileID: 0}
+  buildCost: 2
+  placementRange: 8
+  placementOffset: {x: 0, y: 0.5, z: 0}
+  alignToSurface: 1
+  allowRotation: 1
+  rotationStep: 45
+  placementMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  damage: 10
+  attackRange: 100
+  attacksPerSecond: 1
+  maxHealth: 100
+  availableUpgrades: []
